@@ -1,0 +1,144 @@
+body{
+    background-color:white;
+    font-family:sans-serif;
+    font-size:10px;
+    margin: 10px 3px 30px 5px;  /* top:    10px margin */
+                            /* right:  3px margin  */
+                            /* bottom: 30px margin */
+                            /* left:   5px margin  */
+                        
+}
+h1 {
+    display: inline-block;
+    margin:10px;
+    border:10px solid;
+    padding: 20px;
+    font-size: 3rem;
+    
+    
+}
+
+h2 {
+    font-size: 2rem; /* review rem vs px and use in margin vs font-size */
+}
+
+header > img { /*will set logo  center */
+    display: flex; /*block try and see*/
+    margin: 2px 5px 5px 5px;
+   /*margin-left: auto;
+    margin-right: auto;*/
+    width: 35%;
+    height: auto;
+    background-color: blue;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-color: silver;
+        border-radius: 2%;
+        }  
+
+
+nav ul {
+    font-size: 1.5rem;
+    margin: 2px 2px 2px 2px;
+    list-style: none; /* cool - can align list*/
+    text-align: center;
+    background-color:#ffb3b3;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a:link {
+    /* unvisited link */
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: navy;
+  }
+  
+  /* selected link */
+  a:active {
+    color: light yellow;
+  }
+
+main {
+   
+    /*justify-content: center;*/
+    background-color:grey;
+   
+}
+/* Now opt for flex-box  :) google why here...*/
+section {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    border:10px solid yellow;
+    padding: 20px solid green;
+}  
+
+article{/* Using the article element to represent EACH 
+COLUMN ensures that the content of each column will be 
+self-contained like you want a blog post to be.​   */
+display: flex;
+margin: 10px 10px 10px 10px;
+justify-content: center;
+}
+
+figure.item {
+    /*To correctly align image, regardless of content height: */
+    /*vertical-align: top;*/
+    display: flex;
+    justify-content: center; 
+
+   /* To horizontally center images and caption */
+    text-align: center;
+    /*The width of the container also implies margin around the images. */
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+/*p {
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+} */
+
+    /* flex: 2; if want vertical */
+
+footer {
+    display:flex;
+    background-color: lightgrey;
+}
+footer div { 
+    display: flex;
+
+}
+
+/*Research, audit of how things work, scenario mapping, Interviews 
+with stakeholders, including clients and users, allows business 
+to 
+gather important information to tailor their user experience.
+Client Persona and 
+ */
+
