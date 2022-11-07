@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color: seashell;
     font-family: serif, arial, helvetica, sans-serif;
     font-size:10px;
     margin: 10px 3px 30px 5px;  /* top:    10px margin */
@@ -31,13 +31,36 @@ header > img { /* This centers logo - autos*/
 nav ul {
     list-style: none; /* removes the bullet points*/
     text-align: center;
+    font-size: 1.5rem; 
+    margin: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background-color:#ffb3b3;
 }
 
 nav li {
     display: inline-block;
 }
 
-section { /* line 38-45 suppose to make 3 columns but didn't*/
+a:link {
+    /* unvisited link */
+    color: black;
+}
+
+  /* visited link */
+a:visited {
+    color: purple;
+}
+
+  /* mouse over link */
+a:hover {
+    color: navy;
+}
+
+  /* selected link */
+a:active {
+    color: light yellow;
+}
+section { 
     display: flex;  
 }
 
@@ -76,7 +99,7 @@ THIS ALL TOGETHER AND @MEDIA ENLARGES ALL
         border-radius: 2%;
         }  
 
-        .center2 {
+    .center2 {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -86,7 +109,7 @@ THIS ALL TOGETHER AND @MEDIA ENLARGES ALL
             }  
 
 
-            .center4 {
+    .center4 {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -102,13 +125,13 @@ footer div {
     flex: 1;
 }
 
-footer > img {
+footer div {
     display: flex;
     margin: 5px 5px 5px 5px;
 /* margin-left: auto;
     margin-right: auto; */
-    border-radius: 2px;
-    background-color: blue;
+    border-radius: 5px;
+    background-color: silver;
 
 }
 
