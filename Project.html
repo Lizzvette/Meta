@@ -14,16 +14,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mangata Gallo Jewelry</title>
     <meta name="description" content="a brief description">
-    <meta name="author" content="M jewelry">
-
+    <meta name="author" content="Mangata jewelry">
     <!--Css File-->
-    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <!--link rel="preconnect" href="https://fonts.googleapis.com/css?family="-->
 </head> 
+
 <body> <!-- Step 2 ; header will contain the logo and the nav element.-->
 <header>        
-<img src="Asset 2@3x.png" alt="MG Logo" class="center"> <!-- Step 3 -->
-<nav> <!--Step 4 LINKS -->
+<img src="Asset 1@3x.png" alt="MG Logo" class="center1" width="400" height="300"> <!-- Step 3 -->
+</header>
+
+<nav> <!--Step 4 LINKS - UNLESS INSTRUCTIONS STATE - HAVE HEADER and IMG as ONE ONLY - not NAV -->
     <ul>
             <li><a href="Project.html">Home</a></li>
             <li><a href="Our Work link">Our Work</a></li>
@@ -31,64 +33,88 @@
             <li><a href="Contact">Contact</a></li>
     </ul>
 </nav>
-</header>  
+
+
 <main>    <!--Step 5  create two rows for the main content.....    The main content 
     needs to have a large promotional banner 
     *and three columns with text 
     and images below it therefore, you need to create three columns 
     in the second row.  main element will contain the main content of the page. 
     You can structure the content by using the article element.-->   
-    <img src="Asset 1@3x.png" alt="M x2 image" class="center" width="800" height="600">  
+    <img src="Asset 2@3x.png" alt="M x2 image" class="center2" width="600" height="300">  
     <section> <!-- Step 6-->
-        <article> 
+        <article class="container"> 
 
-    <h1>Custom Jewelry Services</h1>
-    <!--<p>
+            <!--Example:     
+                <div class="container">-->
+      <div class="boxes box1">
+        <!--<h1>First Box</h1>
+        <p>
+		Information in the first box
+        </p>-->
+            <h1>Jewelry Services</h1>
+    <p>
         2Lorem ipsum dolor sit amet, consectetur....
-    </p>-->
-    <figure class="item">
-        <img src=""/>
-        <figcaption class="caption">Text below the image</figcaption>
-    </figure>
-    <figure class="item">
+    </p>
+      </div>
+     
+       <!--- <h1>Second Box</h1>
+        <p>
+          Information in the second box
+        </p>
+      </div>-->
+
+<div class="boxes box2">
     <h1>Custom Process</h1>
-    <!--<p>
+    <p>
         2Lorem ipsum dolor sit amet, consectetur....
-    </p>-->
-    <figure class="item">
+    </p>
+    </div>
+  
+        <!--- <h1>Second Box</h1>
+         <p>
+           Information in the second box
+         </p>
+       </div>-->
+ 
+    <!--figure class="item">
         <img src=""/>
         <figcaption class="caption">Text below the image</figcaption>
     </figure>
-    <figure class="item">
-    <h1>FAQ</h1>
-    <!--<p>
-        2Lorem ipsum dolor sit amet, consectetur....
-    </p>-->
-    <figure class="item">
-        <img src=""/>
-        <figcaption class="caption">Text below the image</figcaption>
-    </figure>
-    <figure class="item">
+    <figure class="item">-->
 
-    </article>
+    <!--<figure class="item">
+        <img src=""/>
+        <figcaption class="caption">Text below the image</figcaption>
+    </figure>
+    <figure class="item">-->
+        <div class="boxes box3">
+    <h1>Frequent Questions</h1>
+    <p>
+        2Lorem ipsum dolor sit amet, consectetur....
+    </p>
+    </div>
+    <!--<figure class="item">
+        <img src=""/>
+        <figcaption class="caption">Text below the image</figcaption>
+    </figure>
+    <figure class="item">-->
+
+    </article> <!--To represent each column ... -->
 </section>
 </main>
-<div>
 
 
-
-<footer> 
+<footer> <!-- Used div vs article 1.) Cuz accessibility not needed 2.) Footer shld be together but in 2 columns-->
+    <div>
+        <img src="Asset 2@3x.png" alt="M x2 image" class="center4" width="300" height="50">  
+    </div>
     <!-- Step 7ish     created two half-width columns for the footer?-->
 <div>
-    <img src="logo_footer.png">
-</div>   
-<div>
     <p>Copyright jewelry....</p>
-</div> 
+</div>
 
 </footer>  
 </body>
 </html>      
 
-<!--What customers are looking for:
--->

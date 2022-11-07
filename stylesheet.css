@@ -1,0 +1,114 @@
+body{
+    background-color:white;
+    font-family: serif, arial, helvetica, sans-serif;
+    font-size:10px;
+    margin: 10px 3px 30px 5px;  /* top:    10px margin */
+                            /* right:  3px margin  */
+                            /* bottom: 30px margin */
+                            /* left:   5px margin  */                      
+    /*margin-top:3rem;
+    margin-bottom:3rem;
+    margin-left:5%;
+    margin-right:5%;*/
+}
+
+h1 {
+    display: inline-block;
+    font-size: 2rem;
+    margin:10px;
+    border:10px;
+    padding: 20px;
+}
+
+header > img { /* This centers logo - autos*/
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: grey;   
+}
+
+nav ul {
+    list-style: none; /* removes the bullet points*/
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section { /* line 38-45 suppose to make 3 columns but didn't*/
+    display: flex;  
+}
+
+article {
+    display: flex;
+    flex: 1;
+}
+
+/*STEP 2:*/
+.container article {
+    display: flex;
+    flex: 1;
+}
+
+/*@media only screen and (min-width: 320px) and (max-width: 576px) 
+
+THIS ALL TOGETHER AND @MEDIA ENLARGES ALL
+{
+    .container {
+    width: 25%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+    }
+
+    .boxes {
+    width: 25%;
+    justify-content: center;
+    } */
+
+    .center1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-color: silver;
+        border-radius: 2%;
+        }  
+
+        .center2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            background-color: silver;
+            border-radius: 2%;
+            }  
+
+
+            .center4 {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                background-color: rgb(42, 40, 40);
+                border-radius: 2%;
+                }  
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer > img {
+    display: flex;
+    margin: 5px 5px 5px 5px;
+/* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 2px;
+    background-color: blue;
+
+}
+

@@ -17,9 +17,9 @@ h1 {
     
     
 }
-
+/*
 h2 {
-    font-size: 2rem; /* review rem vs px and use in margin vs font-size */
+    font-size: 2rem; /* review rem vs px and use in margin vs font-size 
 }
 
 header > img { /*will set logo  center */
@@ -36,9 +36,9 @@ header > img { /*will set logo  center */
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 75%;
         background-color: silver;
-        border-radius: 2%;
+        border-radius: 5%;
         }  
 
 
@@ -140,5 +140,6 @@ with stakeholders, including clients and users, allows business
 to 
 gather important information to tailor their user experience.
 Client Persona and 
+ */
  */
 
